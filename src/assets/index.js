@@ -23,6 +23,12 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import phone from "./phone.png";
+import notification from "./notification-bell.png";
+import rocket from "./rocket.png";
+import profits from "./profits.png";
+import increase from "./increase.png";
+import monitor from "./monitor.png";
 
 export {
   airbnb,
@@ -40,7 +46,7 @@ export {
   menu,
   close,
   google,
-  apple,
+  apple, 
   arrowUp,
   discount,
   facebook,
@@ -50,4 +56,10 @@ export {
   people01,
   people02,
   people03,
+  phone,
+  notification,
+  rocket,
+  profits,
+  increase,
+  monitor,
 };

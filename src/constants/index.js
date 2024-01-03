@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, bill, notification, increase, monitor  } from "../assets";
 
 export const navLinks = [
   {
@@ -22,24 +22,24 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: notification,
+    title: "Auto Call Scheduling",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "You get automatic reminder calls at scheduled time for your activity.",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: increase,
+    title: "100% Auto tracking",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "You don't have to manually enter your activity status for each day. We take input during the call itself and your daily status get magically updated on your dashboard",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: monitor,
+    title: "Auto Reports",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "You get weekly reports to track your progress towards your goal",
   },
 ];
 
@@ -62,7 +62,7 @@ export const feedback = [
   },
   {
     id: "feedback-3",
-    content:
+    content: 
       "It is usually people in the money business, finance, and international trade that are really rich.",
     name: "Kenn Gallagher",
     title: "Founder & Leader",
