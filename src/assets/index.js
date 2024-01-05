@@ -23,15 +23,23 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-import phone from "./phone.png";
+import phonee from "./phonee.png";
 import notification from "./notification-bell.png";
 import rocket from "./rocket.png";
 import profits from "./profits.png";
 import increase from "./increase.png";
 import monitor from "./monitor.png";
-
+import call from "./call.png";
+import vidlogo from "./vidlogo.png";
+import task from "./task.png"
+import todo from "./todo.png";
+import cycle from "./cycle.png"
 export {
+  cycle,
+  todo,
+  task,
   airbnb,
+  vidlogo,
   bill,
   binance,
   card,
@@ -56,10 +64,12 @@ export {
   people01,
   people02,
   people03,
-  phone,
+  phonee,
   notification,
   rocket,
   profits,
   increase,
   monitor,
+  call,
+
 };

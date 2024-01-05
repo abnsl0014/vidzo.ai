@@ -1,5 +1,5 @@
 import styles from "../style";
-import { discount, phone, robot, rocket } from "../assets";
+import { discount, phonee,call, robot, rocket } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
@@ -15,17 +15,18 @@ const Hero = () => {
         </div> */}
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            The Best <br className="sm:block hidden" />{" "}
-            <span className="text-gradient"> Reminder </span>{" "}
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[60px] text-[40px] text-white ss:leading-[100.8px] leading-[50px]">
+          Never Miss a Moment: <br className="sm:block hidden" />{" "}
+            <span className="text-gradient"> Your Tasks, </span>{" "}
+            <span className="text-gradient"> Your Time </span>{" "}
           </h1>
           {/* <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
           </div> */}
         </div>
 
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          for you.
+        <h1 className="mb-2 px-2 bg-[#33bbcf] rounded-lg font-poppins font-semibold ss:text-[68px] text-[35px] text-white ss:leading-[100.8px] leading-[50px]">
+          Our Reminder
         </h1>
 
         <div className="flex flex-row items-center py-[4px] px-4 bg-discount-gradient rounded-[10px] mb-2">
@@ -37,7 +38,7 @@ const Hero = () => {
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={phone} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+        <img src={phonee} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
@@ -46,9 +47,9 @@ const Hero = () => {
         {/* gradient end */}
       </div>
 
-      <div className={`ss:hidden ${styles.flexCenter}`}>
+      {/* <div className={`ss:hidden ${styles.flexCenter}`}>
         <GetStarted />
-      </div>
+      </div> */}
     </section>
   );
 };
