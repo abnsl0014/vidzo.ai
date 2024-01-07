@@ -16,25 +16,26 @@ const Hero = () => {
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[60px] text-[40px] text-white ss:leading-[100.8px] leading-[50px]">
-          Never Miss a Moment: <br className="sm:block hidden" />{" "}
-            <span className="text-gradient"> Your Tasks, </span>{" "}
-            <span className="text-gradient"> Your Time </span>{" "}
+          Be 10x <br className="sm:block hidden" />{" "}
+            {/* <span className="text-gradient"> Your Tasks, </span>{" "} */}
+            <span className="text-gradient"> with phone call</span>{" "}
+            {/* <span className="text-gradient"> Your Time </span>{" "} */}
           </h1>
           {/* <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
           </div> */}
         </div>
 
-        <h1 className="mb-2 px-2 bg-[#33bbcf] rounded-lg font-poppins font-semibold ss:text-[68px] text-[35px] text-white ss:leading-[100.8px] leading-[50px]">
-          Our Reminder
+        <h1 className="mb-2 px-10 bg-[#33bbcf] rounded-full font-poppins font-semibold ss:text-[68px] text-[35px] text-white ss:leading-[100.8px] leading-[50px]">
+          Reminders
         </h1>
 
-        <div className="flex flex-row items-center py-[4px] px-4 bg-discount-gradient rounded-[10px] mb-2">
+
+        {/* <div className="flex flex-row items-center py-[4px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <p className={`${styles.paragraph} max-w-[470px] mt-1`}>
            Get <span className="text-white">phone calls</span> to <span className="text-white"> remind </span> habits and be 10X more productive.
-           <span className="ml-2"><img height={50} width={50} src={rocket} alt="rocket"></img></span>
           </p>
-        </div>
+        </div> */}
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>

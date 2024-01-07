@@ -14,11 +14,10 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Easily control your <br className="sm:block hidden" /> tasks &
-        activities
+        Magic Tracking <br className="sm:block hidden" /> over the Phone Call
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      You will get a call exactly at the time you've set for your reminder, ensuring you never miss a moment. You will just have to press 1 if you'll do the task or press 0 if you are rescheduling or canceling it. 
+        You just press 1 to confirm over the call or simply don't answer if you are rescheduling or canceling it. 
       </p>
     </div>
   </section>
